@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello world", "Hello world\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playing with types", "Playing with types\Playing with types.csproj", "{3001332E-0599-445F-B950-09B9978A0C2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value parameters vs reference parameters", "Value parameters vs reference parameters\Value parameters vs reference parameters.csproj", "{47D040DE-BDC5-4B77-A8CA-2E84268067F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3001332E-0599-445F-B950-09B9978A0C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3001332E-0599-445F-B950-09B9978A0C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3001332E-0599-445F-B950-09B9978A0C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D040DE-BDC5-4B77-A8CA-2E84268067F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D040DE-BDC5-4B77-A8CA-2E84268067F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D040DE-BDC5-4B77-A8CA-2E84268067F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D040DE-BDC5-4B77-A8CA-2E84268067F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
