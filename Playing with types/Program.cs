@@ -31,16 +31,19 @@ Console.WriteLine($"coolDouble3 / coolDouble4 = {result}");
 //This wont work (the result will be trimed
 double result2 = 5 / 10;
 Console.WriteLine($"5 / 10 = {result2}");
+//=0
 
 //This will work because i casted one of the two integers to a double so the result returned is automatically casted into a double.
 double result3 = 5d / 10;
-Console.WriteLine($"5 / 10 = {result3}");
-
+Console.WriteLine($"5d / 10 = {result3}");
+//=0.5
 
 //This will work because i casted one of the two integers to a double and the second one to a float, as the float can be casted to double this is fine..
 double result4 = 5f / 10d;
 Console.WriteLine($"5f / 10d = {result4}");
+//=0.5
 
 //This will not work because i casted one of the two integers to a double the double cannot be casted to a float. I guess the return type is the biggest one of the two.(int64/double)
 //float result5 = 5f / 10d;
 //Console.WriteLine($"5f / 10d = {result5}");
+//=error at compilation
