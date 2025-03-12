@@ -2,8 +2,8 @@
 {
     class Downloader
     {
-        public static string urlToDownload = "https://16bpp.net/";
-        public static string fileName = "16bpp.html";
+        public static string urlToDownload = "https://github.com/VictorGrabowski";
+        public static string fileName = "VictorGitHub.html";
 
         public static async Task DownloadWebPage()
         {
