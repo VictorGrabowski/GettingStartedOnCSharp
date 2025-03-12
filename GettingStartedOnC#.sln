@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value parameters vs referen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPageDownloader", "WebPageDownloader\WebPageDownloader.csproj", "{EA551617-8D6A-401D-8988-2BC8F0AE48B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpListener", "HttpListener\HttpListener.csproj", "{3D811C26-CD50-434A-BA3B-A8C6339F9038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EA551617-8D6A-401D-8988-2BC8F0AE48B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA551617-8D6A-401D-8988-2BC8F0AE48B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA551617-8D6A-401D-8988-2BC8F0AE48B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D811C26-CD50-434A-BA3B-A8C6339F9038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D811C26-CD50-434A-BA3B-A8C6339F9038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D811C26-CD50-434A-BA3B-A8C6339F9038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D811C26-CD50-434A-BA3B-A8C6339F9038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

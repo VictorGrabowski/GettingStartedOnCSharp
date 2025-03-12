@@ -2,8 +2,8 @@
 {
     class Downloader
     {
-        public static string urlToDownload = "https://github.com/VictorGrabowski";
-        public static string fileName = "VictorGitHub.html";
+        public static string urlToDownload = "http://localhost:8000/";
+        public static string fileName = "httpListener.html";
 
         public static async Task DownloadWebPage()
         {
@@ -23,7 +23,7 @@
 
         }
 
-        public static void Main(string[] args)
+        public static void Main()
         {
             Task dlTask = DownloadWebPage();
             Console.WriteLine("Wait for the web page to download..");
