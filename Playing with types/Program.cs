@@ -47,3 +47,16 @@ Console.WriteLine($"5f / 10d = {result4}");
 //float result5 = 5f / 10d;
 //Console.WriteLine($"5f / 10d = {result5}");
 //=error at compilation
+
+
+//This is called Parsing
+string myString = "5";
+int myInt = int.Parse(myString);
+Console.WriteLine($"myInt: {myInt}");
+
+int myInt2 = 5;
+//This is called casting
+//It can be explicit 
+double myDouble = (int)myInt2;
+//Or implicit
+double myDouble2 = myInt2;
