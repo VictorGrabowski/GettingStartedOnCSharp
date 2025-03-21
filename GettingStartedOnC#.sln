@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPageDownloader", "WebPag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpListener", "HttpListener\HttpListener.csproj", "{3D811C26-CD50-434A-BA3B-A8C6339F9038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playing with switch statements", "Playing with switch statements\Playing with switch statements.csproj", "{7C9271E4-E48D-43F5-AF00-B1E2BFF1CD22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3D811C26-CD50-434A-BA3B-A8C6339F9038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D811C26-CD50-434A-BA3B-A8C6339F9038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D811C26-CD50-434A-BA3B-A8C6339F9038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9271E4-E48D-43F5-AF00-B1E2BFF1CD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9271E4-E48D-43F5-AF00-B1E2BFF1CD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9271E4-E48D-43F5-AF00-B1E2BFF1CD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9271E4-E48D-43F5-AF00-B1E2BFF1CD22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
