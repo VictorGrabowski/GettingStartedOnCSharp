@@ -60,3 +60,20 @@ int myInt2 = 5;
 double myDouble = (int)myInt2;
 //Or implicit
 double myDouble2 = myInt2;
+
+//Comparisons
+int myInt3 = 5;
+float myFiveZerosFloat = 5.000001f;
+Console.WriteLine("Comparing an int(5) and a float(5.000001f)");
+Console.WriteLine(myFiveZerosFloat>myInt3? $"{myFiveZerosFloat}>5 ? myFiveZerosFloat is greater than myInt3": $"{myFiveZerosFloat}>5 ? myFiveZerosFloat is NOT greater than myInt3");
+float mySixZerosFloat = 5.0000001f;
+Console.WriteLine("Comparing an int(5) and a float(5.0000001f)");
+Console.WriteLine(mySixZerosFloat>myInt3? $"{mySixZerosFloat}>5 ? mySixZerosFloat is greater than myInt3": $"{mySixZerosFloat}>5 ? = mySixZerosFloat is NOT greater than myInt3");
+Console.WriteLine("I just discovered that the Casting to string of a float will troncate the seventh decimal.");
+Console.WriteLine(mySixZerosFloat + ": My float with 6 zeros");
+Console.WriteLine(mySixZerosFloat + 0.000001f);
+float smallFloat = 0.00000001f;
+double smallDouble = 0.00000001;
+
+Console.WriteLine($"smallFloat: {smallFloat}");
+Console.WriteLine($"smallDouble: {smallDouble}");
